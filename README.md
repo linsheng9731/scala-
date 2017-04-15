@@ -17,7 +17,7 @@ Rectangle r = new Rectangle();
 ```
 如果你不想获取width和height，(默认构造参数为val不可变型，因为在scala里面不提倡使用中间状态即var可变型)只需要下面这样定义这个类即可：
 ```
-class Rectanle(width:Int,height:Int){
+class Rectangle(width:Int,height:Int){
 }
 val r = new Rectangle
 ```
